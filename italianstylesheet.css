@@ -1,0 +1,92 @@
+﻿body {
+    min-height: 1500px;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: .5em;
+    text-align: center;
+    background-image: url('flags/italyflag.png');
+    background-size: cover;
+    background-position: center;
+    color: black;
+}
+
+
+    header img {
+        height: 70px;
+        margin-right: 0px;
+    }
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    background-color: #444;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    border: 3px solid cadetblue
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+    nav a:hover {
+        color: #f0a500;
+    }
+
+
+main {
+    padding: 20px;
+    
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.image-item {
+    text-align: center;
+    width: 23%;
+}
+
+    .image-item img {
+        width: 100%;
+        height: 80%;
+    }
+
+
+
+table {
+    width: 40%; 
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
